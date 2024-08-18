@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>facebook signup form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>facebook</h1>
+        <h2>Sign Up</h2>
+        <p>It's quick and easy.</p>
+        <hr>
+        <input type="name" id="first-name" name="name" required placeholder="First name" class="box">
+        <input type="name" id="Surname" name="name" required placeholder="Surname" class="box">
+       <br><br>
+        <input type="email" id="email" name="email" required placeholder="E-mail" class="box1">
+        <br><br>
+        <input type="password" id="password" name="password" required placeholder="New password" class="box1"><br><br>
+
+        <label for="dob">Date of birth</label>
+        <br>
+        <input type="date" id="dob" name="dob" class="box1"><br><br>
+
+        <label for="gender">Gender</label><br>
+       <div class="gender">
+           <div class="gender-option">
+              <label for="female">Female</label>
+              <label><input type="radio" id="gender" name="gender" value="female"></label>
+           </div>
+        
+            <div class="gender-option">
+                <label for="male">Male</label>
+                <label><input type="radio" id="gender" name="gender" value="male"></label>
+            </div>
+    
+        
+            <div class="gender-option">
+                <label for="others">Others</label>
+            <label><input type="radio" id="gender" name="gender" value="others"></label>
+            </div>
+       </div>
+
+        <p class="small">People who use our service may have uploaded your contact information to Facebook. <a href="#">learn more.</a></p>
+        <p class="small">By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+        <div class="container">
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+</body>
+</html>
